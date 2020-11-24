@@ -65,21 +65,27 @@ a:hover {
   margin-left: 0%;
 }
 .sobre {
-    display: flex;
-    text-align: center ;
-    padding: 40px; 
-    border: black;
+  display: flex;
+
+  padding: 40px; 
+  border: black;
 }
 .sobre-talita{
-  display: flex;
-  width: 150px;
+display: flex;
+width: 150px;
+justify-content: space-around;
 }
-.sobre-text p h2{
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.sobre-foto{
+display: flex;
+margin-right: 5%;
+justify-content: space-around;
 }
+.sobre-text h2 p {
+display: flex;
+
+align-items: center;
+}
+
 .missao{
   display: flex;
   justify-content: space-evenly;
@@ -122,8 +128,10 @@ a:hover {
 }
 .valores{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  margin-left: 30%;
+  
 }
 .valores-text h2 {
   font-size: 40px;
@@ -131,30 +139,42 @@ a:hover {
   font-weight: 500;
   color: black;
   text-transform: uppercase;
+  text-align: center;
+  margin-left: 34%;
 }
-/* .valores-text {
-  width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-} */
+
 .icones{
   display: flex;
 }
-
+.solidario-icone{
+margin: 5%;
+text-align: center;
+}
+.humilde-icone{
+margin: 5%;
+text-align: center;
+}
+.empatia-icone{
+margin: 5%;
+text-align: center;
+}
+.estrela-icone{
+  margin: 5%;
+  }
 .img-solidario{
   width: 100px;
-  margin-left: 15%;
-  /* justify-content: flex-start; */
+  padding: 20px;
+  align-items: center;
 }
 .img-empatia{
   width: 100px;
-  margin-left: 20%;
+  padding: 20px;
+  align-items: center;
 }
 .img-humilde{
   width: 100px;
-  margin-left: 20%;
+  padding: 20px;
+  align-items: center;
 }
  
  /*----------------------------- FOOTER--------------------------------*/
